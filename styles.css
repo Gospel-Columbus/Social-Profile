@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap');
+
+
+
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", serif;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    width:400px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.mimi-one {
+    color:hsl(0, 0%, 100%);
+    width:300px;
+    height:20px;
+    background-color: hsl(0, 0%, 20%);
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mimi-two {
+    color:hsl(0, 0%, 100%);
+    width:300px;
+    height:20px;
+    background-color: hsl(0, 0%, 20%);
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mimi-three {
+    color:hsl(0, 0%, 100%);
+    width:300px;
+    height:20px;
+    background-color: hsl(0, 0%, 20%);
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mimi-four {
+    color:hsl(0, 0%, 100%);
+    width:300px;
+    height:20px;
+    background-color: hsl(0, 0%, 20%);
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.mimi-five {
+    color:hsl(0, 0%, 100%);
+    width:300px;
+    height:20px;
+    background-color: hsl(0, 0%, 20%);
+    margin:10px;
+    padding:10px;
+    border-radius:5px;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 1440px) {
+    .container {
+        width: 400px;
+        height: auto;
+
+    
+    }
+}
+
+
+
+
+@media (max-width: 375px) {
+
+   .container{
+    width:100%;
+    height:auto;
+
+
+  
+   }
+}
+
+
