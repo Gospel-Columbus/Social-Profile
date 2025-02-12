@@ -13,6 +13,7 @@ body {
     font-size: 14px;
     align-content: center;
     margin: 40px auto;
+   
 }
 
 .container {
@@ -25,7 +26,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    padding:30px;
+    padding-bottom: 20px;
+
 }
 .mimi-one {
     color:hsl(0, 0%, 100%);
@@ -90,7 +92,7 @@ body {
     .container {
         width: 400px;
         height: 700px;
-        margin: 40px auto;
+        
 
     
     }
@@ -104,7 +106,8 @@ body {
    .container{
     width:100%;
     height:auto;
-    padding-top:30px auto;
+    padding-top:20px;
+    padding-bottom:20px;
 
 
   
