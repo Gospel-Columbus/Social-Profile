@@ -25,6 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    padding:30px;
 }
 .mimi-one {
     color:hsl(0, 0%, 100%);
@@ -103,7 +104,7 @@ body {
    .container{
     width:100%;
     height:auto;
-    padding:30px;
+    padding-top:30px auto;
 
 
   
