@@ -7,6 +7,7 @@ body {
     font-family: "Inter", serif;
     font-weight: 400px;
     font-size: 14px;
+    background-color: hsl(0, 0%, 8%) ;
    
    
 }
@@ -24,6 +25,7 @@ body {
     height:100vh;
     box-sizing: border-box;
     background-color: hsl(0, 0%, 8%) ;
+    position:fixed;
     
     
 
@@ -107,7 +109,7 @@ body {
     .child-container {
         width: 300px;
         height: 600px;
-        
+        position:
 
     
     }
@@ -123,6 +125,8 @@ body {
     height:auto;
     padding-top:20px;
     padding-bottom:20px;
+    padding-left:auto;
+    padding-right:auto;
 
 
   
