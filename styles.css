@@ -4,7 +4,6 @@
 
 body {
  
-    background-color: hsl(0, 0%, 8%);
     font-family: "Inter", serif;
     font-weight: 400px;
     font-size: 14px;
@@ -14,70 +13,77 @@ body {
 
 .parent-container {
     
-    background-color:hsl(0, 0%, 8%) ;
+    
     display:flex;
-    flex-direction: row;
     justify-content: center;
-    padding:50px;
     align-items: center;
-    align-content: center;
-    margin:800px auto; /* I used 500px to center the div correctly */
+    padding:50px;
+    /* remember to always increase the width and height
+     to the default size of the desktop to center the div at the middle of the browser */
+    width:100vw;
+    height:100vh;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%) ;
+    
+    
+
+    
 
 }
 
 .child-container {
     background-color: hsl(0, 0%, 12%);
-    width:400px;
-    height: 700px;
+    width:300px;
+    height: 600px;
     text-align: center;
+    border-radius: 10px;
+    padding-bottom: 20px;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    padding-bottom: 20px;
 
 }
 .mimi-one {
     color:hsl(0, 0%, 100%);
-    width:300px;
+    width:200px;
     height:20px;
     background-color: hsl(0, 0%, 20%);
-    margin:10px;
-    padding:10px;
+    margin:7px;
+    padding:7px;
     border-radius: 5px;
     text-align: center;
 }
 
 .mimi-two {
     color:hsl(0, 0%, 100%);
-    width:300px;
+    width:200px;
     height:20px;
     background-color: hsl(0, 0%, 20%);
-    margin:10px;
-    padding:10px;
+    margin:7px;
+    padding:7px;
     border-radius: 5px;
     text-align: center;
 }
 
 .mimi-three {
     color:hsl(0, 0%, 100%);
-    width:300px;
+    width:200px;
     height:20px;
     background-color: hsl(0, 0%, 20%);
-    margin:10px;
-    padding:10px;
+    margin:7px;
+    padding:7px;
     border-radius: 5px;
     text-align: center;
 }
 
 .mimi-four {
     color:hsl(0, 0%, 100%);
-    width:300px;
+    width:200px;
     height:20px;
     background-color: hsl(0, 0%, 20%);
-    margin:10px;
-    padding:10px;
+    margin:7px;
+    padding:7px;
     border-radius: 5px;
     text-align: center;
 }
@@ -85,11 +91,11 @@ body {
 
 .mimi-five {
     color:hsl(0, 0%, 100%);
-    width:300px;
+    width:200px;
     height:20px;
     background-color: hsl(0, 0%, 20%);
-    margin:10px;
-    padding:10px;
+    margin:7px;
+    padding:7px;
     border-radius:5px;
     text-align: center;
 }
@@ -98,9 +104,9 @@ body {
 
 
 @media (max-width: 1440px) {
-    .container {
-        width: 400px;
-        height: 700px;
+    .child-container {
+        width: 300px;
+        height: 600px;
         
 
     
@@ -112,7 +118,7 @@ body {
 
 @media (max-width: 375px) {
 
-   .container{
+   .child-container{
     width:100%;
     height:auto;
     padding-top:20px;
